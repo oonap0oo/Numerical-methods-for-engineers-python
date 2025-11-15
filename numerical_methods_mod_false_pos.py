@@ -5,7 +5,8 @@
 from math import *
 
 def modfalsepos(f, interval, imax, es):
-    """Modified false position method
+    """Modified false position method"""
+    """
     f: function of one argument to find root of
     interval: iterable with lowel and upper guess (xl,xu)
     imax: max allowed number of iterations
@@ -28,14 +29,14 @@ def modfalsepos(f, interval, imax, es):
         if test < 0: # values of function at xr and xl have different signs
             xu = xr # root must be in lower half of interval
             fu = f(xu)
-            iu = 0
+            iu = 0 # start counting if lower half more then 2 times reduce function value lower limit fl
             il += 1
             if il >= 2:
                 fl /= 2
         elif test > 0: # values of function at xr and xl have same signs
             xl = xr # root must be in upper half of interval
             fl = f(xl)
-            il = 0
+            il = 0 # start counting if upper half more then 2 times reduce function value upper limit fu
             iu += 1
             if iu >=2:
                 fu /= 2
@@ -47,7 +48,8 @@ def modfalsepos(f, interval, imax, es):
 
 
 def standardfalsepos(f, interval, imax, es):
-    """Standard false position method
+    """Standard false position method"""
+    """
     f: function of one argument to find root of
     interval: iterable with lowel and upper guess (xl,xu)
     imax: max allowed number of iterations
@@ -81,7 +83,8 @@ def standardfalsepos(f, interval, imax, es):
 
 
 def bisect(f, interval, imax, es):
-    """Bisection method
+    """Bisection method"""
+    """
     f: function of one argumant to find root of
     interval: iterable with lowel and upper guess (xl,xu)
     imax: max allowed number of iterations
@@ -110,6 +113,15 @@ def bisect(f, interval, imax, es):
             break
     return xr, iter_, ea
 
+def report(f, method, result):
+    root, steps, rel_error =result
+    print("\n"+method.__doc__)
+    print(fun.__doc__)
+    print("Interval for root:",interval)
+    print(f"root xr = {root} +-{rel_error:.1}%")
+    print(f"residual f(xr) = {f(root):.3}")
+    print("number of steps", steps)
+
 
 # Example 5.6 page 139
 # xr**10 - 1 = 0
@@ -122,29 +134,14 @@ interval = (0, 1.3)
 error_percent = 0.01
 N = 100
 
-result, steps, rel_error = bisect(fun, interval, N, error_percent)
-print("Bisection method")
-print(fun.__doc__)
-print("Interval for root:",interval)
-print(f"root xr = {result} +-{rel_error:.1}%")
-print(f"residual f(xr) = {fun(result):.3}")
-print("number of steps", steps)
+result = bisect(fun, interval, N, error_percent)
+report(fun, bisect, result)
 
-result, steps, rel_error = standardfalsepos(fun, interval, N, error_percent)
-print("\nStandard false position method")
-print(fun.__doc__)
-print("Interval for root:",interval)
-print(f"root xr = {result} +-{rel_error:.1}%")
-print(f"residual f(xr) = {fun(result):.3}")
-print("number of steps", steps)
+result = standardfalsepos(fun, interval, N, error_percent)
+report(fun, standardfalsepos, result)
 
 
-result, steps, rel_error = modfalsepos(fun, interval, N, error_percent)
-print("\nModified false position method")
-print(fun.__doc__)
-print("Interval for root:",interval)
-print(f"root xr = {result} +-{rel_error:.1}%")
-print(f"residual f(xr) = {fun(result):.3}")
-print("number of steps", steps)
+result = modfalsepos(fun, interval, N, error_percent)
+report(fun, modfalsepos, result)
 
 
