@@ -1,5 +1,5 @@
-# Numerical-methods-for-engineers-python
-Python versions of some of the example pseudocode in the book "Numerical methods for engineers 8th edition""
+# Numerical Methods For Engineers - Python
+Python versions of some of the example pseudocode in the book "Numerical methods for engineers 8th edition". Unless mentioned the code only uses libraries which come with a CPython installation such as math.
 
 ## Roots of equations
 
