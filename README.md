@@ -32,4 +32,10 @@ A second version also generates a plot using the matplotlib library
 
 code: [numerical_methods_incremental_search_false_pos_plot.py](numerical_methods_incremental_search_false_pos_plot.py)
 
+### Newton-Raphson method
+
+Adapted from NUMERICAL METHODS FOR ENGINEERS 8th Edition from pseudocode on page 153, info on page 157
+
+code: [numerical_methods_newton_raphson.py](numerical_methods_newton_raphson.py)
+
 
