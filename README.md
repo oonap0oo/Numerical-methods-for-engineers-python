@@ -38,4 +38,8 @@ Adapted from NUMERICAL METHODS FOR ENGINEERS 8th Edition from pseudocode on page
 
 code: [numerical_methods_newton_raphson.py](numerical_methods_newton_raphson.py)
 
+### Secant method
 
+Using info out of NUMERICAL METHODS FOR ENGINEERS 8th Edition on page 158
+
+code: [numerical_methods_secant.py](numerical_methods_secant.py)
