@@ -43,3 +43,14 @@ code: [numerical_methods_newton_raphson.py](numerical_methods_newton_raphson.py)
 Using info out of NUMERICAL METHODS FOR ENGINEERS 8th Edition on page 158
 
 code: [numerical_methods_secant.py](numerical_methods_secant.py)
+
+### Mofidied secant method
+
+Using info out of NUMERICAL METHODS FOR ENGINEERS 8th Edition on page 162
+
+This variant uses a fractional change ε (epsilon) of the independant variable x to prroximate the derivative of f(x)
+
+    df(xn)/dt ≈ ( (f(xn + epsilon*xn) - f(xn) ) / (epsilon*xn)
+
+code: [numerical_methods_modified_secant.py](numerical_methods_modified_secant.py)
+
