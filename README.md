@@ -36,11 +36,19 @@ code: [numerical_methods_incremental_search_false_pos_plot.py](numerical_methods
 
 Adapted from NUMERICAL METHODS FOR ENGINEERS 8th Edition from pseudocode on page 153, info on page 157
 
+This method uses both f(x) and the derivative function f'(x) to approximate the root
+
+    xn+1 = xn - f(xn) / df(xn)/dt
+
 code: [numerical_methods_newton_raphson.py](numerical_methods_newton_raphson.py)
 
 ### Secant method
 
 Using info out of NUMERICAL METHODS FOR ENGINEERS 8th Edition on page 158
+
+The deivative of function f(x) is approximated by
+
+    df(xn)/dt ≈ (f(xn-1)- f(xn) / (xn-1 - xn)
 
 code: [numerical_methods_secant.py](numerical_methods_secant.py)
 
