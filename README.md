@@ -16,11 +16,11 @@ As described in NUMERICAL METHODS FOR ENGINEERS  8th Edition
 
 Incremental search for sign changes of function adapted from pseudocode on page 142
 
-combined with modified false position root finding method adapted from pseudocode on page 141
+Combined with Modified False Position root finding method adapted from pseudocode on page 141
 
 This code allows the user to enter a function of x and a interval on the x-axis.
 
-The interval is searched for sign changes, these points are furhter refined yielding the roots using modfified false position.
+The interval is searched for sign changes, these points are further refined yielding the roots using modified false position.
 
 ![numerical_methods_incremental_search_false_pos_screenshot.png](numerical_methods_incremental_search_false_pos_screenshot.png)
 
