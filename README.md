@@ -62,3 +62,36 @@ This variant uses a fractional change ε (epsilon) of the independant variable x
 
 code: [numerical_methods_modified_secant.py](numerical_methods_modified_secant.py)
 
+### Own example: Ripple voltage of rectified mains voltage
+
+The mains voltage is rectified using 4 diodes in bridge configuration. The resulting d.c. voltage is smoothed using a capacitor with value C When the rectifier is loaded with resistance R what is the remaining ripple of the reftified d.c. voltage?
+
+voltage at anode of a diode:
+
+    va(t) = -Vamplitude*cos(2*pi*f*t)
+
+voltage on capacitor:
+
+    vc(t) = Vamplitude*exp(-t/(R*C))
+
+voltage on capacitor drops until next pair of diodes conduct, ignoring diode forward voltage:
+
+    va(t1) = vc(t1)
+    -Vamplitude*cos(2*pi*f*t1) = Vamplitude*exp(-t1/(R*C))
+    exp(-t1/(R*C)) + cos(2*pi*f*t1) = 0
+
+This last equation has to be solved fot t1 using numerical methods
+
+This script uses Bisection method to find t1 and the resulting peak to peak ripple voltage.
+
+Code: [rectifier_capacitor_ripple.py](rectifier_capacitor_ripple.py)
+
+![rectifier_capacitor_ripple_screenshot.png](rectifier_capacitor_ripple_screenshot.png)
+
+The ripple found is 2.9V peak to peak.
+
+A simulation run using NGSPICE finds similar result:
+
+![rectifier_capacitor_ripple_ngspice_screenshot.png.png](rectifier_capacitor_ripple_ngspice_screenshot.png.png)
+
+
