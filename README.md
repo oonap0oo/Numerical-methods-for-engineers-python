@@ -92,6 +92,8 @@ The ripple found is 2.9V peak to peak.
 
 A simulation run using NGSPICE finds similar result:
 
+NGSPICE circuit description file: [rectifier_capacitor_ripple.sp](rectifier_capacitor_ripple.sp)
+
 ![rectifier_capacitor_ripple_ngspice_screenshot.png.png](rectifier_capacitor_ripple_ngspice_screenshot.png.png)
 
 
