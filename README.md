@@ -96,4 +96,20 @@ NGSPICE circuit description file: [rectifier_capacitor_ripple.sp](rectifier_capa
 
 ![rectifier_capacitor_ripple_ngspice_screenshot.png.png](rectifier_capacitor_ripple_ngspice_screenshot.png.png)
 
+### Brent's Method
+The following Python code was adapted from pseudocode demonstrating Brent's method on page 166 of NUMERICAL METHODS FOR ENGINEERS 8th Edition.
+
+Brent's method applies open methods inverse quadratic interpolation, Secant method or closed method Bisection as applicable.
+
+Code: [root_finding_brents_method.py](root_finding_brents_method.py)
+
+The code applies Brent's Method on "Case Study 8.4 Pipe Friction" in the book to find the friction factor using Colebrook equation.
+
+    -1/sqrt(f) = 2 * log10( eps/(3.7*D) + 2.51/(Re*sqrt(f)) )
+
+For a particular set of values for Reynolds number Re, diameter D and roughness eps
+
+![root_finding_brents_method_screenshot.png](root_finding_brents_method_screenshot.png)
+
+
 
