@@ -121,5 +121,5 @@ This is a different approach compared to the pseudocode found in NUMERICAL METHO
 
 Applied to the same problem from "Case Study 8.4 Pipe Friction" it comes to an even more accurate result in 8 iterations.
 
-[brents_method_wikipedia_screenshot.png](brents_method_wikipedia_screenshot.png)
+![brents_method_wikipedia_screenshot.png](brents_method_wikipedia_screenshot.png)
 
