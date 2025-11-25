@@ -111,5 +111,15 @@ For a particular set of values for Reynolds number Re, diameter D and roughness 
 
 ![root_finding_brents_method_screenshot.png](root_finding_brents_method_screenshot.png)
 
+### Brent's Method, adapted from pseudocode on Wikipedia
 
+adapted from wikipedia pseudocode on [https://en.wikipedia.org/wiki/Brent%27s_method#Algorithm](https://en.wikipedia.org/wiki/Brent%27s_method#Algorithm)
+
+code: [brents_method_wikipedia.py](brents_method_wikipedia.py)
+
+This is a different approach compared to the pseudocode found in NUMERICAL METHODS FOR ENGINEERS 8th Edition.
+
+Applied to the same problem from "Case Study 8.4 Pipe Friction" it comes to an even more accurate result in 8 iterations.
+
+[brents_method_wikipedia_screenshot.png](brents_method_wikipedia_screenshot.png)
 
