@@ -1,5 +1,7 @@
 # Numerical Methods For Engineers - Python
-Python versions of some of the example pseudocode in the book "Numerical methods for engineers 8th edition". Unless mentioned the code only uses libraries which come with a CPython installation such as math.
+Python versions of some of the example pseudocode in the book "Numerical methods for engineers 8th edition". 
+
+Unless mentioned the code only uses libraries which come with a CPython installation such as math.
 
 ## Roots of equations
 
@@ -123,3 +125,23 @@ Applied to the same problem from "Case Study 8.4 Pipe Friction" it comes to an e
 
 ![brents_method_wikipedia_screenshot.png](brents_method_wikipedia_screenshot.png)
 
+## Numerical integration
+
+Numerical Integration based on the book NUMERICAL METHODS FOR ENGINEERS 8th Edition
+Trapezoidal rule and Simpsons rule adapted from pseudocode on page 632 applied on Example 21.3 on page 622 and 623
+
+The code: [numerical_integration_simpsons_rule.py](numerical_integration_simpsons_rule.py)
+
+This example calculates distance D for a falling parachutist after a certain time by integrating velocity over time.
+
+    Velocity: v(t) = g * m / c * (1 - exp(-(c * t / m))
+    The velocity of a falling object with air resistance where 
+        g is acceleration due to gravity 
+        m is mass
+        c is the drag coefficient
+        t is time
+
+The code compares the results using Trapezoidal rule, Simpson's 1/3 rule and Simpson's 3/8 rule coded in Python. It does so with several number of iteratons.
+
+![numerical_integration_simpsons_rule.png](numerical_integration_simpsons_rule.png)
+    
