@@ -127,6 +127,8 @@ Applied to the same problem from "Case Study 8.4 Pipe Friction" it comes to an e
 
 ## Numerical integration
 
+### Trapezoidal rule and Simpsons rule applied to falling parachutist problem
+
 Numerical Integration based on the book NUMERICAL METHODS FOR ENGINEERS 8th Edition
 Trapezoidal rule and Simpsons rule adapted from pseudocode on page 632 applied on Example 21.3 on page 622 and 623
 
@@ -144,4 +146,23 @@ This example calculates distance D for a falling parachutist after a certain tim
 The code compares the results using Trapezoidal rule, Simpson's 1/3 rule and Simpson's 3/8 rule coded in Python. It does so with several number of iteratons.
 
 ![numerical_integration_simpsons_rule.png](numerical_integration_simpsons_rule.png)
-    
+
+
+### Onw example: Using Elliptic integral calculated with Simpson's 3/8 rule coded in Python to find circumference of an ellipse
+
+There is no closed-form expression for the perimeter of an ellipse.
+
+One of the methods is using the Complete elliptic integral of the second kind:
+
+    e is the eccentricity of the ellipse:
+        
+    e = √( 1 - b² / a² ), a > b
+        
+                        π/2 
+    Circumference = 4.a.∫ √( 1 - e².sin²(θ) ).d(θ)
+                        0
+This code uses the Simpson's 3/8 rule coded in Python to find the circumference.
+
+The code: [numerical_integration_own_example_circumference_ellipse.py](numerical_integration_own_example_circumference_ellipse.py)
+
+![numerical_integration_own_example_circumference_ellipse_screenshot.png](numerical_integration_own_example_circumference_ellipse_screenshot.png)
