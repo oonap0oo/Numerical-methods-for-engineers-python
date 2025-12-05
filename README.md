@@ -150,7 +150,7 @@ The code compares the results using Trapezoidal rule, Simpson's 1/3 rule and Sim
 
 ### Onw example: Using Elliptic integral calculated with Simpson's 3/8 rule coded in Python to find circumference of an ellipse
 
-There is no closed-form expression for the perimeter of an ellipse.
+There is no closed-form expression for the perimeter or circumference of an ellipse.
 
 One of the methods is using the Complete elliptic integral of the second kind:
 
@@ -161,8 +161,8 @@ One of the methods is using the Complete elliptic integral of the second kind:
                         π/2 
     Circumference = 4.a.∫ √( 1 - e².sin²(θ) ).d(θ)
                         0
-This code uses the Simpson's 3/8 rule coded in Python to find the circumference.
+This code uses the Trapezoidal, Simpson's 1/3 and  Simpson's 3/8 rules coded in Python to calculate the integral and find the circumference.
 
-The code: [numerical_integration_own_example_circumference_ellipse.py](numerical_integration_own_example_circumference_ellipse.py)
+The code: [numerical_integration_own_example_circumference_ellipse2.py](numerical_integration_own_example_circumference_ellipse2.py)
 
-![numerical_integration_own_example_circumference_ellipse_screenshot.png](numerical_integration_own_example_circumference_ellipse_screenshot.png)
+![numerical_integration_own_example_circumference_ellipse_screenshot2.png](numerical_integration_own_example_circumference_ellipse_screenshot2.png)
