@@ -5,7 +5,6 @@ Unless mentioned the code only uses libraries which come with a CPython installa
 
 ## Content
 
-
 * [Roots of equations](#Roots-of-equations)
 
     * [Modified False position method](#Modified-False-position-method)
