@@ -3,6 +3,32 @@ Python versions of some of the example pseudocode in the book "Numerical methods
 
 Unless mentioned the code only uses libraries which come with a CPython installation such as math.
 
+## Content
+
+* [Roots of equations](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#Rootsofequations)
+
+   * [Modified False position method](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#ModifiedFalsepositionmethod)
+
+   * [Incremental search for sign changes and modified false position method](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#Incrementalsearchforsignchangesandmodifiedfalsepositionmethod)
+
+   * [Newton-Raphson method](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#Newton-Raphsonmethod)
+
+   * [Secant method](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#Secantmethod)
+
+   * [Mofidied secant method](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#Mofidiedsecantmethod)
+
+   * [Own example: Ripple voltage of rectified mains voltage](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#Ownexample:Ripplevoltageofrectifiedmainsvoltage)
+
+   * [Brent's Method](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#Brent'sMethod)
+
+   * [Brent's Method, adapted from pseudocode on Wikipedia](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#Brent'sMethod,adaptedfrompseudocodeonWikipedia)
+
+* [Numerical integration](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#Numericalintegration)
+
+   * [Trapezoidal rule and Simpsons rule applied to falling parachutist problem](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#TrapezoidalruleandSimpsonsruleappliedtofallingparachutistproblem)
+
+   * [Onw example: Using Elliptic integral calculated with Simpson's 3/8 rule coded in Python to find circumference of an ellipse](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#Onwexample:UsingEllipticintegralcalculatedwithSimpson's3/8rulecodedinPythontofindcircumferenceofanellipse)
+
 ## Roots of equations
 
 ### Modified False position method
