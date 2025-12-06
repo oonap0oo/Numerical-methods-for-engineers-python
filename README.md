@@ -20,9 +20,9 @@ Unless mentioned the code only uses libraries which come with a CPython installa
 
    * [Own example: Ripple voltage of rectified mains voltage](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#own-example:-ripple-voltage-of-rectified-mains-voltage)
 
-   * [Brent's Method](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#brent's-method)
+   * [Brent's Method](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#brents-method)
 
-   * [Brent's Method, adapted from pseudocode on Wikipedia](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#brent's-method,-adapted-from-pseudocode-on-wikipedia)
+   * [Brent's Method, adapted from pseudocode on Wikipedia](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#brents-method-adapted-from-pseudocode-on-wikipedia)
 
 * [Numerical integration](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#numerical-integration)
 
