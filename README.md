@@ -5,29 +5,30 @@ Unless mentioned the code only uses libraries which come with a CPython installa
 
 ## Content
 
-* [Roots of equations](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#Rootsofequations)
 
-   * [Modified False position method](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#ModifiedFalsepositionmethod)
+* [Roots of equations](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#roots-of-equations)
 
-   * [Incremental search for sign changes and modified false position method](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#Incrementalsearchforsignchangesandmodifiedfalsepositionmethod)
+   * [Modified False position method](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#modified-false-position-method)
 
-   * [Newton-Raphson method](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#Newton-Raphsonmethod)
+   * [Incremental search for sign changes and modified false position method](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#incremental-search-for-sign-changes-and-modified-false-position-method)
 
-   * [Secant method](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#Secantmethod)
+   * [Newton-Raphson method](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#newton-raphson-method)
 
-   * [Mofidied secant method](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#Mofidiedsecantmethod)
+   * [Secant method](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#secant-method)
 
-   * [Own example: Ripple voltage of rectified mains voltage](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#Ownexample:Ripplevoltageofrectifiedmainsvoltage)
+   * [Mofidied secant method](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#mofidied-secant-method)
 
-   * [Brent's Method](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#Brent'sMethod)
+   * [Own example: Ripple voltage of rectified mains voltage](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#own-example:-ripple-voltage-of-rectified-mains-voltage)
 
-   * [Brent's Method, adapted from pseudocode on Wikipedia](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#Brent'sMethod,adaptedfrompseudocodeonWikipedia)
+   * [Brent's Method](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#brent's-method)
 
-* [Numerical integration](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#Numericalintegration)
+   * [Brent's Method, adapted from pseudocode on Wikipedia](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#brent's-method,-adapted-from-pseudocode-on-wikipedia)
 
-   * [Trapezoidal rule and Simpsons rule applied to falling parachutist problem](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#TrapezoidalruleandSimpsonsruleappliedtofallingparachutistproblem)
+* [Numerical integration](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#numerical-integration)
 
-   * [Onw example: Using Elliptic integral calculated with Simpson's 3/8 rule coded in Python to find circumference of an ellipse](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#Onwexample:UsingEllipticintegralcalculatedwithSimpson's3/8rulecodedinPythontofindcircumferenceofanellipse)
+   * [Trapezoidal rule and Simpsons rule applied to falling parachutist problem](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#trapezoidal-rule-and-simpsons-rule-applied-to-falling-parachutist-problem)
+
+   * [Onw example: Using Elliptic integral calculated with Simpson's 3/8 rule coded in Python to find circumference of an ellipse](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#onw-example:-using-elliptic-integral-calculated-with-simpson's-3/8-rule-coded-in-python-to-find-circumference-of-an-ellipse)
 
 ## Roots of equations
 
