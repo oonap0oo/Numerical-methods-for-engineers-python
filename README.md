@@ -9,7 +9,7 @@ Unless mentioned the code only uses libraries which come with a CPython installa
 
 * [Roots of equations](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#Roots-of-equations)
 
-   * [Modified False position method](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#Modified-False-position-method)
+   * [Modified False position method]#Modified-False-position-method)
 
    * [Incremental search for sign changes and modified false position method](https://github.com/oonap0oo/Numerical-methods-for-engineers-python#Incremental-search-for-sign-changes-and-modified-false-position-method)
 
