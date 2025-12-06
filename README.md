@@ -8,27 +8,27 @@ Unless mentioned the code only uses libraries which come with a CPython installa
 
 * [Roots of equations](#Roots-of-equations)
 
-   * [Modified False position method](#Modified-False-position-method)
+    * [Modified False position method](#Modified-False-position-method)
 
-   * [Incremental search for sign changes and modified false position method](#Incremental-search-for-sign-changes-and-modified-false-position-method)
+    * [Incremental search for sign changes and modified false position method](#Incremental-search-for-sign-changes-and-modified-false-position-method)
 
-   * [Newton-Raphson method](#Newton-Raphson-method)
+    * [Newton-Raphson method](#Newton-Raphson-method)
 
-   * [Secant method](#Secant-method)
+    * [Secant method](#Secant-method)
 
-   * [Mofidied secant method](#Mofidied-secant-method)
+    * [Mofidied secant method](#Mofidied-secant-method)
 
-   * [Own example: Ripple voltage of rectified mains voltage](#Own-example-Ripple-voltage-of-rectified-mains-voltage)
+    * [Own example: Ripple voltage of rectified mains voltage](#Own-example-Ripple-voltage-of-rectified-mains-voltage)
 
-   * [Brent's Method](#Brents-Method)
+    * [Brent's Method](#Brents-Method)
 
-   * [Brent's Method, adapted from pseudocode on Wikipedia](#Brents-Method-adapted-from-pseudocode-on-Wikipedia)
+    * [Brent's Method, adapted from pseudocode on Wikipedia](#Brents-Method-adapted-from-pseudocode-on-Wikipedia)
 
 * [Numerical integration](#Numerical-integration)
 
-   * [Trapezoidal rule and Simpsons rule applied to falling parachutist problem](#Trapezoidal-rule-and-Simpsons-rule-applied-to-falling-parachutist-problem)
+    * [Trapezoidal rule and Simpsons rule applied to falling parachutist problem](#Trapezoidal-rule-and-Simpsons-rule-applied-to-falling-parachutist-problem)
 
-   * [Onw example: Using Elliptic integral calculated with Simpson's 3/8 rule coded in Python to find circumference of an ellipse](#Onw-example-Using-Elliptic-integral-calculated-with-Simpsons-38-rule-coded-in-Python-to-find-circumference-of-an-ellipse)
+    * [Onw example: Using Elliptic integral calculated with Simpson's 3/8 rule coded in Python to find circumference of an ellipse](#Onw-example-Using-Elliptic-integral-calculated-with-Simpsons-38-rule-coded-in-Python-to-find-circumference-of-an-ellipse)
 
 ## Roots of equations
 
