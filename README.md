@@ -192,3 +192,46 @@ This code uses the Trapezoidal, Simpson's 1/3 and  Simpson's 3/8 rules coded in 
 The code: [numerical_integration_own_example_circumference_ellipse2.py](numerical_integration_own_example_circumference_ellipse2.py)
 
 ![numerical_integration_own_example_circumference_ellipse_screenshot2.png](numerical_integration_own_example_circumference_ellipse_screenshot2.png)
+
+## Interpolation
+
+### Polynomial interpolation using Lagrange polynomial
+
+First try using info from wikipedia:
+
+[https://en.wikipedia.org/wiki/Lagrange_polynomial](https://en.wikipedia.org/wiki/Lagrange_polynomial)
+
+[https://en.wikipedia.org/wiki/Polynomial_interpolation](https://en.wikipedia.org/wiki/Polynomial_interpolation)
+
+    Lagrange polynomial
+    
+    xi, yi : data points
+    
+             n  ⎛         x - xj     ⎞
+    p(x) =   ∑  ⎜    ∏   ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯  ⎟ yi
+            i=0 ⎝  0≤j≤n  xi - xj    ⎠
+                    j≠i
+
+This code implements interpolation using the Lagrange polynomial in second barycentric form
+
+    Lagrange polynomial in second barycentric form
+    
+    xj, yj: data points, wj: barymetric weight
+    
+    wj =  ∏  (xj - xm)⁻¹  
+         m≠j
+    
+              k  ⎛    wj      ⎞
+              ∑  ⎜ ⎯⎯⎯⎯⎯⎯⎯⎯⎯ yj ⎟
+             j=0 ⎝  x - xj    ⎠
+    p(x) = ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+              k  ⎛    wj   ⎞
+              ∑  ⎜ ⎯⎯⎯⎯⎯⎯⎯⎯⎯ ⎟ 
+             j=0 ⎝  x - xj ⎠
+    
+Code: [lagrange_interpolation2.py](lagrange_interpolation2.py)
+
+This code uses matplotlib to plot the result
+
+![lagrange_interpolation2_screenshot.png](lagrange_interpolation2_screenshot.png)
+
