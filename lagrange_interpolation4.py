@@ -1,4 +1,4 @@
-# Lienar and polynomial interpolation using Lagrange polynomial
+# Linear and polynomial interpolation using Lagrange polynomial
 # try from wikipedia using info from:
 # https://en.wikipedia.org/wiki/Linear_interpolation
 # https://en.wikipedia.org/wiki/Lagrange_polynomial
