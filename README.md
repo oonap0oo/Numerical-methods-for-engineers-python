@@ -229,9 +229,9 @@ This code implements interpolation using the Lagrange polynomial in second baryc
               ∑  ⎜ ⎯⎯⎯⎯⎯⎯⎯⎯⎯ ⎟ 
              j=0 ⎝  x - xj ⎠
     
-Code: [lagrange_interpolation2.py](lagrange_interpolation2.py)
+Code: [lagrange_interpolation4.py](lagrange_interpolation4.py)
 
 This code uses matplotlib to plot the result
 
-![lagrange_interpolation2_screenshot.png](lagrange_interpolation2_screenshot.png)
+![lagrange_interpolation4_screenshot.png](lagrange_interpolation4_screenshot.png)
 
